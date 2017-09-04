@@ -311,6 +311,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
+    vendor/zuk/z2_plus/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/zuk/z2_plus/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
     vendor/zuk/z2_plus/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
     vendor/zuk/z2_plus/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
@@ -541,7 +542,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/zuk/z2_plus/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/zuk/z2_plus/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/zuk/z2_plus/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/zuk/z2_plus/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/zuk/z2_plus/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/zuk/z2_plus/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
