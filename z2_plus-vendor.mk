@@ -521,6 +521,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libprotobuf-cpp-shit.so:system/vendor/lib64/libprotobuf-cpp-shit.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib64/libprotobuf-cpp-Hlit.so:system/vendor/lib64/libprotobuf-cpp-Hlit.so \
     vendor/zuk/z2_plus/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/zuk/z2_plus/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/zuk/z2_plus/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
