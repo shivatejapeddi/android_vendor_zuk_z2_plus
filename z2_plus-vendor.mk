@@ -530,9 +530,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/zuk/z2_plus/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/zuk/z2_plus/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
-    vendor/zuk/z2_plus/proprietary/vendor/app/colorservice/colorservice.apk:system/vendor/app/colorservice/colorservice.apk \
-    vendor/zuk/z2_plus/proprietary/vendor/app/ims/ims.apk:system/vendor/app/ims/ims.apk \
-    vendor/zuk/z2_plus/proprietary/vendor/app/imssettings/imssettings.apk:system/vendor/app/imssettings/imssettings.apk \
     vendor/zuk/z2_plus/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/zuk/z2_plus/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/zuk/z2_plus/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
@@ -629,9 +626,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/lib64/libextmedia_jni.so:system/lib64/libextmedia_jni.so \
     vendor/zuk/z2_plus/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
     vendor/zuk/z2_plus/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
-    vendor/zuk/z2_plus/proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
-    vendor/zuk/z2_plus/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
-    vendor/zuk/z2_plus/proprietary/priv-app/CNEService/CNEService.apk:system/priv-app/CNEService/CNEService.apk \
     vendor/zuk/z2_plus/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/zuk/z2_plus/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/zuk/z2_plus/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
@@ -673,12 +667,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/zuk/z2_plus/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/zuk/z2_plus/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
-    vendor/zuk/z2_plus/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/zuk/z2_plus/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
-    vendor/zuk/z2_plus/proprietary/app/shutdownlistener/shutdownlistener.apk:system/app/shutdownlistener/shutdownlistener.apk \
-    vendor/zuk/z2_plus/proprietary/app/QtiTelephonyService/QtiTelephonyService.apk:system/app/QtiTelephonyService/QtiTelephonyService.apk \
-    vendor/zuk/z2_plus/proprietary/app/datastatusnotification/datastatusnotification.apk:system/app/datastatusnotification/datastatusnotification.apk
-
+    vendor/zuk/z2_plus/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libtime_genoff \
@@ -691,8 +680,5 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     colorservice \
     qcrilhook \
-    com.qualcomm.qti.Performance.xml \
-    libqti_performance \
-    QPerformance \
     ims \
     imssettings
